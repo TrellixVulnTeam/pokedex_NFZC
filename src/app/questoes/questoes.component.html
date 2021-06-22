@@ -1,0 +1,10 @@
+<mat-accordion>
+    <mat-expansion-panel hideToggle *ngFor="let question of questoes">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                {{question.question}}
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p>{{question.answer}}</p>
+    </mat-expansion-panel>
+</mat-accordion>
