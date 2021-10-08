@@ -103,6 +103,10 @@ export class QuestoesComponent {
             // logica do factory
          }]);`
     },
+    {
+      question: "Teste",
+      answer: "Teste"
+    }
 
   ]
 }
